@@ -1,2 +1,0 @@
-# CODSOFT
-Web Development internship

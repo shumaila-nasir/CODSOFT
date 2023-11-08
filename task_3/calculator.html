@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="screen" class="screen" readonly>
+    <div class="buttons">
+      <button onclick="TypeText('7')">7</button>
+      <button onclick="TypeText('8')">8</button>
+      <button onclick="TypeText('9')">9</button>
+      <button onclick="TypeText('/')">÷</button>
+      <button onclick="TypeText('4')">4</button>
+      <button onclick="TypeText('5')">5</button>
+      <button onclick="TypeText('6')">6</button>
+      <button onclick="TypeText('*')">x</button>
+      <button onclick="TypeText('1')">1</button>
+      <button onclick="TypeText('2')">2</button>
+      <button onclick="TypeText('3')">3</button>
+      <button onclick="TypeText('-')">-</button>
+      <button onclick="TypeText('.')">.</button>
+      <button onclick="TypeText('0')">0</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="TypeText('+')">+</button>
+      <button class="clear" onclick="clearScreen()">C</button>
+    </div>
+  </div>
+
+  <script src="calculator.js"></script>
+</body>
+</html>
